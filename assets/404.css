@@ -1,7 +1,9 @@
 #404text {
   color: red;
+  size: 120%;
 }
 
 #errorText {
   color: red;
+  size: 80%;
 }
