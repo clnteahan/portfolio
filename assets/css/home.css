@@ -1,3 +1,7 @@
 #backgroundImage {
     background-image: url("https://raw.githubusercontent.com/clnteahan/portfolio/main/assets/images/undraw_developer_activity_re_39tg.svg");
 }
+
+#introText {
+    color: white;
+}
