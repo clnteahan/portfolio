@@ -13,7 +13,12 @@ body {
 }
 
 #firstText {
-    color: white;
+    width: 30%;
+    height: 200px;
     background-color: green;
-    text-align: right;
+    border: 1px solid black;
+    transform: translate(1000px,100px);
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
 }
