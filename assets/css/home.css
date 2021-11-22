@@ -2,6 +2,7 @@ body {
     background-image: url("https://raw.githubusercontent.com/clnteahan/portfolio/main/assets/images/undraw_developer_activity_re_39tg.svg");
     background-repeat: no-repeat;
     background-size: auto;
+    background-color: lawngreen;
 }
 
 #introText {
@@ -9,4 +10,10 @@ body {
     size: 150%;
     text-align: center;
     background-color: black;
+}
+
+#firstText {
+    color: white;
+    background-color: green;
+    text-align: right;
 }
