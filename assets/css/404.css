@@ -1,9 +1,14 @@
-#404text {
-  color: red;
-  size: 120%;
+body {
+  background-image: url("https://raw.githubusercontent.com/clnteahan/portfolio/main/assets/images/undraw_warning_cyit.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  background-color: cyan;
 }
 
-#errorText {
+#missingPageText {
   color: red;
-  size: 80%;
+  padding-left: 42%;
+  text-align: center;
+  font-size: 200px;
 }
