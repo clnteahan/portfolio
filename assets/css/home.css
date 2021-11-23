@@ -35,3 +35,91 @@ body {
 #img1 {
     transform: translate(0px, -200px);
 }
+
+#languageList {
+    font-weight: 600;
+}
+
+#cSharpBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+}
+
+#htmlBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+}
+
+#cssBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+}
+
+#jsBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+}
+
+#javaBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+}
+
+#pythonBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+}
