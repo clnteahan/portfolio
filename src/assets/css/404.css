@@ -1,0 +1,36 @@
+body {
+  background-image: url("https://raw.githubusercontent.com/clnteahan/portfolio/main/assets/images/undraw_warning_cyit.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  background-color: cyan;
+}
+
+#missingPageText {
+  color: red;
+  padding-left: 42%;
+  text-align: center;
+  font-size: 200px;
+}
+
+#returnHome {
+  width: 100px;
+  height: 50px;
+  margin-left: 46%;
+  margin-top: 27%;
+  font-size: 140%;
+  background-color: #3BFF00;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+  transition-duration: 10ms;
+}
+
+#returnHome:hover {
+  background-color: #25a100;
+}
+
+#returnHome:active {
+  width: 99px;
+  height: 49px;
+}

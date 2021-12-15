@@ -1,0 +1,131 @@
+body {
+    background-size: auto;
+    background-color: #3a404a;
+}
+
+#introText {
+    size: 150%;
+    text-align: center;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-left: 45%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 12px;
+    color: #3BFF00;
+    text-shadow: 1px 1px #000000;
+}
+
+#firstText {
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    transform: translate(900px,100px);
+    padding: 10px;
+    border-radius: 12px;
+    color: #3BFF00;
+    text-shadow: 1px 1px #000000;
+    font-family: "Roboto", sans-serif;
+}
+
+#img1 {
+    transform: translate(0px, -200px);
+}
+
+#languageList {
+    font-weight: 600;
+}
+
+#cSharpBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+    text-align: center;
+}
+
+#htmlBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+    text-align: center;
+}
+
+#cssBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+    text-align: center;
+}
+
+#jsBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+    text-align: center;
+}
+
+#javaBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+    text-align: center;
+}
+
+#pythonBubble {
+    width: 3%;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #3BFF00;
+    text-align: center;
+}
