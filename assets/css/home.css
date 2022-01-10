@@ -134,3 +134,9 @@ body {
     width: 20%;
     height: 20%;
 }
+
+#repoLabel {
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
