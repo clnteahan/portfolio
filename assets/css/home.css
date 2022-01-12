@@ -34,6 +34,8 @@ body {
 
 #img1 {
     transform: translate(0px, -200px);
+    width: auto;
+    height: auto;
 }
 
 #languageList {
@@ -133,9 +135,18 @@ body {
 #gitImg {
     width: 20%;
     height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #repoLabel {
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+
+#contactLabel {
     color: white;
     font-size: 200%;
     text-align: center;
