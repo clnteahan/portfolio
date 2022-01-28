@@ -17,6 +17,7 @@ body {
     border-radius: 12px;
     color: #3BFF00;
     text-shadow: 1px 1px #000000;
+    font-family: 'Literata', serif;
 }
 
 #firstText {
@@ -149,5 +150,13 @@ body {
 #contactLabel {
     color: white;
     font-size: 200%;
+    text-align: center;
+}
+
+#emailText {
+    color: white;
+}
+
+#email {
     text-align: center;
 }
