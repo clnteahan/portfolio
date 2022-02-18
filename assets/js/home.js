@@ -23,3 +23,9 @@ function getAge(dateRange) {
 var colinAge = getAge(currentDateRange);
 
 firstText.innerHTML = firstText.innerHTML.replace("[{1}]", colinAge);
+
+var gitImg = document.getElementById("gitImg")
+
+function newTab(url) {
+    window.open(url, "_blank");
+}

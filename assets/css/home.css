@@ -1,6 +1,7 @@
 body {
     background-size: auto;
     background-color: #3a404a;
+    white-space: nowrap;
 }
 
 #introText {
