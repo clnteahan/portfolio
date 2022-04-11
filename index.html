@@ -33,15 +33,26 @@
         </th>
       </tr>
     </table>
-    <div id="repos">
-      <p id="repoLabel">Github</p>
-      <img id="gitImg" src="https://raw.githubusercontent.com/clnteahan/portfolio/html/assets/images/github.svg" onContextMenu="return false;" ondragstart="return false;" ondragend="return false;" oncopy="navigator.clipboard.writeText('');" onclick="newTab('https://github.com/clnteahan?tab=repositories')" onmouseover="document.body.style.cursor = 'pointer'" onmouseout="document.body.style.cursor ='auto'" title="github.com/clnteahan?tab=repositories">
-    </div>
-    <a></a>
+    <p class="spacer"></p>
+    <table id="repos">
+      <tr>
+        <th>
+          <p id="gitExplain">The following image is a link to my github profile, in which you may view all of the creations that I have decided to upload.</p>
+        </th>
+        <th>
+          <img id="gitImg" src="https://raw.githubusercontent.com/clnteahan/portfolio/html/assets/images/github.svg" onContextMenu="return false;" ondragstart="return false;" ondragend="return false;" oncopy="navigator.clipboard.writeText('');" onclick="newTab('https://github.com/clnteahan?tab=repositories')" onmouseover="document.body.style.cursor = 'pointer'" onmouseout="document.body.style.cursor ='auto'" title="github.com/clnteahan?tab=repositories">
+        </th>
+      </tr>
+      <tr>
+        <p id="repoLabel">Github</p>
+      </tr>
+    </table>
+    <p class="spacer"></p>
     <div id="contactInfo">
       <p id="contactLabel">Contact Me:</p>
       <div id="email"><span id="emailText"><bold>Email:</bold> <p id="emailVal" onclick="copyToClipboard('email')">inbox@colinteahan.dev</p> </span> <form action="mailto:inbox@colinteahan.dev" method="post" enctype="text/plain"><input class="button" type="submit" value="Send"></form></div>
     </div>
+    <p class="spacer"></p>
     <script src="assets/js/home.js"></script>
   </body>
 </html>
