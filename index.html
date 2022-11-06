@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
     <meta name="language" content="English">
-    <meta name="description" content="The official software development portfolio fo Colin J. Teahan">
+    <meta name="description" content="The official software development portfolio of Colin J. Teahan">
     <title>Colin Teahan</title>
     <meta name="revisit-after" content="1 days">
     <meta name="author" content="Colin Teahan">
@@ -19,16 +19,19 @@
     <link rel="stylesheet" href="assets/css/home.css">
   </head>
   <body>
-    <div id="introText">Hello I'm Colin</div>
+    <div class="centerw_wrapper">
+      <div id="introText" class="backgroundBubble">Hello I'm Colin</div>
+    </div>
     <table>
       <tr>
         <th>
           <img id="img1" src="https://raw.githubusercontent.com/clnteahan/portfolio/html/assets/images/undraw_developer_activity_re_39tg.svg" onContextMenu="return false;" ondragstart="return false;" ondragend="return false;">
         </th>
         <th>
-          <div id="firstText">Hello I am Colin Teahan, a [{1}] year old software developer
-            <p></p>
-            <div id="prefLanguages">Familiar Languages: <span id="cSharpBubble">C#</span> <span id="htmlBubble">Html</span> <span id="cssBubble">Css</span> <span id="jsBubble">Js</span> <span id="javaBubble">Java</span> <span id="pythonBubble">Python</span> </div>
+          <div class="backgroundBubble" id="firstText">
+            <div>Hello I am Colin Teahan, a [{1}] year old software developer</div>
+            <br>
+            <div>Familiar Languages: <span class="langBubble">C#</span> <span class="langBubble">Html</span> <span class="langBubble">Css</span> <span class="langBubble">Js</span> <span class="langBubble">Java</span> <span class="langBubble">Python</span> </div>
           </div>
         </th>
       </tr>
@@ -37,10 +40,11 @@
     <table id="repos">
       <tr>
         <th>
-          <p id="gitExplain">The following image is a link to my github profile, in which you may view all of the creations that I have decided to upload.</p>
+          <div class="center"><div id="gitExplain" class="backgroundBubble">The following image is a link to my github profile, in which you may view all of the creations that I have decided to upload.</div></div>
         </th>
+        <br>
         <th>
-          <img id="gitImg" src="https://raw.githubusercontent.com/clnteahan/portfolio/html/assets/images/github.svg" onContextMenu="return false;" ondragstart="return false;" ondragend="return false;" oncopy="navigator.clipboard.writeText('');" onclick="newTab('https://github.com/clnteahan?tab=repositories')" onmouseover="document.body.style.cursor = 'pointer'" onmouseout="document.body.style.cursor ='auto'" title="github.com/clnteahan?tab=repositories">
+          <img id="gitImg" class="center" src="https://raw.githubusercontent.com/clnteahan/portfolio/html/assets/images/github.svg" onContextMenu="return false;" ondragstart="return false;" ondragend="return false;" oncopy="navigator.clipboard.writeText('');" onclick="newTab('https://github.com/clnteahan?tab=repositories')" onmouseover="document.body.style.cursor = 'pointer'" onmouseout="document.body.style.cursor ='auto'" title="github.com/clnteahan?tab=repositories">
         </th>
       </tr>
       <tr>

@@ -1,144 +1,70 @@
 body {
-    background-size: auto;
     background-color: #3a404a;
     white-space: nowrap;
 }
 
+html {
+    width: 99vw;
+}
+
+th {
+    justify-content: center;
+    align-items: center;
+}
+
+.centerw_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #introText {
-    width: 6%;
-    background-color: white;
-    border: 1px solid gray;
-    margin-left: 45%;
-    vertical-align: middle;
-    padding: 1%;
-    border-radius: 12px;
+    width: 7em;
     color: #3BFF00;
     text-shadow: 1px 1px #000000;
     font-family: 'Literata', serif;
 }
 
-#firstText {
+.backgroundBubble {
     background-color: white;
-    border: 1% solid gray;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 4%;
-    padding-right: 102%;
+    border: 1px solid gray;
     border-radius: 12px;
+    padding: 0.25em;
+}
+
+table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.langBubble {
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 0.5%;
+    border-radius: 8px;
+    height: 105%;
+    text-align: center;
+}
+
+#firstText {
     color: #3BFF00;
     text-shadow: 1px 1px #000000;
     font-family: "Roboto", sans-serif;
-    margin-left: 20%;
-    margin-bottom: 60%;
-    margin-right: 100%;
-    text-size-adjust: auto;
+    width: 100%;
 }
 
 #img1 {
-    width: 100%;
-    height: 100%;
-}
-
-#languageList {
-    font-weight: 600;
-}
-
-#cSharpBubble {
-    width: 3%;
-    height: 20px;
-    background-color: gray;
-    border: 1px solid gray;
-    padding: 10px;
-    padding-left: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 12px;
-    border-radius: 12px;
-    color: #3BFF00;
-    text-align: center;
-}
-
-#htmlBubble {
-    width: 3%;
-    height: 20px;
-    background-color: gray;
-    border: 1px solid gray;
-    padding: 10px;
-    padding-left: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 12px;
-    border-radius: 12px;
-    color: #3BFF00;
-    text-align: center;
-}
-
-#cssBubble {
-    width: 3%;
-    height: 20px;
-    background-color: gray;
-    border: 1px solid gray;
-    padding: 10px;
-    padding-left: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 12px;
-    border-radius: 12px;
-    color: #3BFF00;
-    text-align: center;
-}
-
-#jsBubble {
-    width: 3%;
-    height: 20px;
-    background-color: gray;
-    border: 1px solid gray;
-    padding: 10px;
-    padding-left: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 12px;
-    border-radius: 12px;
-    color: #3BFF00;
-    text-align: center;
-}
-
-#javaBubble {
-    width: 3%;
-    height: 20px;
-    background-color: gray;
-    border: 1px solid gray;
-    padding: 10px;
-    padding-left: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 12px;
-    border-radius: 12px;
-    color: #3BFF00;
-    text-align: center;
-}
-
-#pythonBubble {
-    width: 3%;
-    height: 20px;
-    background-color: gray;
-    border: 1px solid gray;
-    padding: 10px;
-    padding-left: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 12px;
-    border-radius: 12px;
-    color: #3BFF00;
-    text-align: center;
+    width: 30em;
+    height: 30em;
 }
 
 #gitImg {
-    width: 20%;
-    height: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 20vw;
+    height: 20vw;
 }
 
 #repoLabel {
@@ -152,6 +78,7 @@ body {
     color: white;
     font-size: 200%;
     text-align: center;
+    width: 100%;
     text-shadow: 1px 1px #6402b5;
 }
 
@@ -194,19 +121,22 @@ body {
 
 #gitExplain {
     color: #488fdb;
-    background-color: white;
-    border: 1% solid gray;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 4%;
-    padding-right: 2%;
-    border-radius: 12px;
     text-align: left;
-    width: 100%;
     overflow-wrap: break-word;
-    inline-size: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    inline-size: 50%;
     text-shadow: 1px 1px #000000;
     font-family: "Roboto", sans-serif;
+    height: 110%;
+    font-size: 100%;
+    margin-right: 0px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #emailVal {
